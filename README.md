@@ -3,7 +3,7 @@ Práctica de Sistemas Informáticos con Docker. En la cuál vamos a crear un con
 
 ---
 
-### Preparar el directorio donde copiaremos los archivos _locales_ al _contenedor_
+### 1. Preparar el directorio donde copiaremos los archivos _locales_ al _contenedor_
 <img width="670" alt="image" src="https://user-images.githubusercontent.com/91556467/154111342-8809bcee-ec6f-4f50-b289-6f62e2759f2f.png">
 
 ###### Dockerfile
@@ -36,7 +36,7 @@ RUN a2enmod php7.4
 CMD  ["./entrypoint.sh"]
 ```
 
-### Ejecutar `build.sh` para montar el _contenedor de Docker_
+### 2. Ejecutar `build.sh` para montar el _contenedor de Docker_
 <img width="949" alt="image" src="https://user-images.githubusercontent.com/91556467/154109200-22cca8e7-5025-421f-9901-a071235f8d89.png">
 
 ###### build.sh
@@ -51,7 +51,7 @@ CMD  ["./entrypoint.sh"]
 docker build -t chapter2 .
 ```
 
-### Ejecutar `debug.sh` para iniciar el _contenedor_
+### 3. Ejecutar `debug.sh` para iniciar el _contenedor_
 <img width="941" alt="image" src="https://user-images.githubusercontent.com/91556467/154110315-21785c14-7f86-44fe-8821-6c89be874593.png">
 
 ###### debug.sh
@@ -70,5 +70,5 @@ docker run \
     chapter2
 ```
 
-#### Acceder al servidor PhP _hosteado_ con el contenedor de Docker
+#### 4. Acceder al servidor PhP _hosteado_ con el contenedor de Docker
 <img width="258" alt="image" src="https://user-images.githubusercontent.com/91556467/154111160-8104e7f4-547e-4dc8-896b-4e71c311ba3c.png">
