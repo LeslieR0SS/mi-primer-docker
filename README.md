@@ -1,4 +1,4 @@
-# mi-primer-docker
+# Mi primer Docker :)
 Práctica de Sistemas Informáticos con Docker. En la cuál vamos a crear un contenedor en Docker con un sesrvidor Apache+PhpP
 
 ---
